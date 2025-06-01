@@ -54,9 +54,8 @@ class Handler {
 		}
 
 		const data = await this._getMetadata(website);
-
 		await this._postData(data);
 	}
-}
+};
 
 export default Handler;

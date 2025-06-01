@@ -14,4 +14,4 @@ export default {
 		episode: hurawatch.getEpisode,
 		imgUrl: hurawatch.getImgUrl
 	}
-}
+};

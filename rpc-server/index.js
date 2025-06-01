@@ -140,7 +140,7 @@ const setPresence = async (title, episode, imgUrl, website) => {
 			res: e.message
 		}
 	}
-}
+};
 
 if (CLIENT_ID !== '') {
 	rpc = new Client({ transport: 'ipc' });
