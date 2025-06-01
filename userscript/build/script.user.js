@@ -9,7 +9,7 @@
 (() => {
 	'use strict';
 
-	fetch('https://raw.githubusercontent.com/femrawr/VideoPresence/refs/heads/main/userscript/main.min.js')
+	fetch('https://raw.githubusercontent.com/femrawr/VideoPresence/refs/heads/main/userscript/build/main.min.js')
 		.then(res => {
 			if (!res.ok) throw new Error(`http error, status: ${res.status}`);
 			return res.text();
