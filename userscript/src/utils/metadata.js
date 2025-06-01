@@ -1,8 +1,10 @@
 import hurawatch from './hurawatch';
+import hianime from './hianime';
 
 export default {
 	websites: [
-		'hurawatch'
+		'hurawatch',
+		'hianimez'
 	],
 
 	getWebsite(url) {
@@ -13,5 +15,11 @@ export default {
 		title: hurawatch.getTitle,
 		episode: hurawatch.getEpisode,
 		imgUrl: hurawatch.getImgUrl
+	},
+
+	'hianimez': {
+		title: hianime.getTitle,
+		episode: hianime.getEpisode,
+		imgUrl: hianime.getImgUrl
 	}
 };

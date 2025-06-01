@@ -3,7 +3,8 @@
 // @version      30/5/2025
 // @description  discord rpc for hurawatch and more
 // @author       femrawr
-// @match        https://hurawatch.cc/*
+// @match        *://*.hurawatch.cc/*
+// @match        *://*.hianimez.to/*
 // ==/UserScript==
 
 (() => {
